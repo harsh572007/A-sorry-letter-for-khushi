@@ -35,7 +35,7 @@ export function Page1Welcome({ onContinue, onGentleBurst }: Page1WelcomeProps) {
       <div className="order-1 lg:order-2 lg:col-span-5">
         <div className="mx-auto max-w-xs sm:max-w-sm lg:max-w-none">
           <IllustrationCard
-            src="/src/assets/images/khushi_bear_envelope_1794764567692.jpg"
+            src="/khushi_bear_envelope_1794764567692.jpg"
             alt="Cozy teddy bear holding a cream envelope with a heart wax seal"
             onTap={handleBearTap}
             interactiveHint="Tap the bear for a tiny hug"
