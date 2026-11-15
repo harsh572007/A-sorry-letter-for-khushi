@@ -34,7 +34,7 @@ export function Page4NormalAgain({
       <div className="order-1 lg:col-span-5">
         <div className="mx-auto max-w-sm lg:max-w-none">
           <IllustrationCard
-            src="/src/assets/images/khushi_tea_moment_1794764569284.jpg"
+            src="/khushi_tea_moment_1794764569284.jpg"
             alt="Two steaming mugs of hot cocoa with heart marshmallows and a cozy journal"
             aspectClass="aspect-[4/3]"
             caption="Missing our random chai & cocoa talks."
