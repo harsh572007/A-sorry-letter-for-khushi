@@ -38,7 +38,7 @@ export function Page2UpsetCheck({
           className="mx-auto max-w-xs sm:max-w-sm lg:max-w-none"
         >
           <IllustrationCard
-            src="/src/assets/images/khushi_sorry_bouquet_1794764568841.jpg"
+            src="/khushi_sorry_bouquet_1794764568841.jpg"
             alt="Shy caramel bunny holding wildflowers behind its back"
             caption={
               notUpsetConfirmed
