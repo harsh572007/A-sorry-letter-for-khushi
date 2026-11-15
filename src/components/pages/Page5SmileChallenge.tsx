@@ -377,7 +377,7 @@ export function Page5SmileChallenge({
       <div className="grid grid-cols-1 items-center gap-6 rounded-3xl border border-[#8BA389]/40 bg-[#FDF8F3] p-6 shadow-sm sm:p-8 lg:grid-cols-12">
         <div className="mx-auto w-full max-w-[230px] lg:col-span-4">
           <IllustrationCard
-            src="/src/assets/images/khushi_celebration_hug_1794764569627.jpg"
+            src="/khushi_celebration_hug_1794764569627.jpg"
             alt="Two cheerful little bears hugging under floating stars and petals"
             onTap={handleHug}
             interactiveHint="Tap for celebration confetti"
