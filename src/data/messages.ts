@@ -11,7 +11,7 @@ import { PageMeta } from '../types/app';
  */
 
 export const SITE_META = {
-  brandTitle: 'For Khushi',
+  brandTitle: 'For merii pyaariii si bhnaa Khushi',
   replayLabel: 'Replay',
   soundOnLabel: 'Chimes on',
   soundOffLabel: 'Muted',
@@ -27,7 +27,7 @@ export const PAGES_META: PageMeta[] = [
 ];
 
 export const PAGE_1_WELCOME = {
-  heading: 'Hey Khushiiii! 🥺🤎',
+  heading: 'Heyieeee Khushiiii! 🥺🤎',
   subtitle: 'Okay, so... I have a little something for you.',
   envelopeNotePreview: 'A tiny envelope full of honesty, warmth & one big sorry...',
   openButtonLabel: 'Open your little surprise 💌',
@@ -42,14 +42,14 @@ export const PAGE_2_UPSET_CHECK = {
   leadIn: 'First of all, tell me something...',
   question: 'Are you still upset with me?',
   yesDodgeButton: 'Yes, I am! 🙄',
-  noAllowButton: 'No, not anymore! 🤎',
+  noAllowButton: 'No, not anymore! Tujhse gussa kaise reh sakti hu? 🤎',
   dodgeMessages: [
     'Hehe, missed! Try again 😜',
     'Whoa, too slow! That button is shy today 🏃‍♀️',
     'Nope! It refuses to stay still 🥺',
     'Okay okay, just tap the brown button already 🤎',
   ],
-  acceptedHeadline: 'WAITTT, REALLY?! 😭🤎',
+  acceptedHeadline: 'WAITTT, REALLY?! LOVE YOU SO MUCHHH😭🤎',
   acceptedBody: 'That just made my whole day! Still, there is something I really want to tell you...',
   nextButton: 'Read my little letter 💌',
 };
@@ -58,14 +58,14 @@ export const PAGE_3_SORRY_LETTER = {
   heading: "Okay, Here's My Sorry! 💌",
   salutation: 'KHUSHIIIIIII BHNAAAAAA!',
   paragraphs: [
-    'please please please ywlll maaf krdo maiii bs msti krrha tha aage se ni krunga pkka to nhi Keh sakta lekinn limit me krungaa try krunga ki naraz na ho aap. Please maaf krdoo naww ywll. Btw itna to chlta hai na ki mjaak msti kru hnn ik ki maine jyada hi boldiya tha lekin kya kru aapse hi Baat krta ji jyadatar to msti mjaak krleta hu. Yk Yk ki na jo joke Saath jitna mjaak msti krta hai na wo usse utna hi pyaar krta hai, mai to bhtttt hiii jyada krta hu lekin aage se thoda km krunga khi aap dubara gussa na ho jao isliye. Ab aapki jo marzi mai to thoda sa km krdungaa.',
-    "Jokes apart I'm genuinely sorry maaf krdo aapke is najaayz bhai se ek galti hogyi 😭🙇",
+    'please please please ywlll maaf krdo maiii bs msti krrha tha aage se ni krunga, pkka to nhi Keh sakta lekinn limit me krdungaa aur try krunga ki naraz na ho aap. Please maaf krdoo naww ywll. Btw itna to chlta hai na ki mjaak msti kru? hnn hnn ik ki maine jyada hi boldiya tha lekin kya kru aapse hi Baat krta hu jyadatar to msti mjaak krleta hu. Yk Yk ki na jo logo Saath jitna mjaak msti krta hai na wo usse utna hi pyaar krta hai, mai to bhtttt hiii jyada krta hu lekin aage se thoda km krunga khi aap dubara gussa na ho jao isliye. Ab aapki jo marzi mai to thoda sa km krdungaa. (Just Kidding Hahaha aapko Pyaar krna koi kaise km krskta hai mai to bilkul bhi nhi Love you so muvhhh) lekin hnn preshan km krne ka try krunga pkka se. ',
+    "Jokes apart I'm genuinely sorry maaf krdo, aapke is najaayz bhai se ek galti hogyi 😭🙇",
   ],
-  closingLine: 'Tera PYAARA Bhai',
+  closingLine: 'aaapka PYAARA Bhai',
   signature: 'HARSH',
   waxSealPrompt: 'Tap for a tiny P.S.',
   secretPostScript:
-    'Even when we act quiet or stubborn, I got new people in my life you will always be my favorite person in the whole world.',
+    'Even when we act quiet or stubborn, I got new people, in my life you will always be my favorite person in the whole world.',
   nextButton: 'One quick thing... 🫶',
 };
 
