@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-cream: #FDF8F3;
+  --color-ivory: #FAF2E8;
+  --color-beige: #EFE2D0;
+  --color-latte: #E2CEB6;
+  --color-caramel: #B6794C;
+  --color-mocha: #6E4534;
+  --color-chocolate: #4A2C20;
+  --color-espresso: #3B2318;
+  --color-dusty-rose: #C98A8B;
+  --color-lavender: #A294B8;
+  --color-sage: #8BA389;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    background-color: #FDF8F3;
+    color: #3B2318;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) translateX(4px) rotate(2deg);
+  }
+}
+
+@keyframes cloudDrift {
+  0%, 100% {
+    transform: translateX(-8px);
+  }
+  50% {
+    transform: translateX(12px);
+  }
+}
+
+@keyframes sparkleTwinkle {
+  0%, 100% {
+    opacity: 0.45;
+    transform: scale(0.9) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15) rotate(12deg);
+  }
+}
+
+@keyframes butterflyFlutter {
+  0%, 100% {
+    transform: translateY(0px) rotate(-4deg) scaleX(1);
+  }
+  25% {
+    transform: translateY(-7px) rotate(3deg) scaleX(0.84);
+  }
+  50% {
+    transform: translateY(-12px) rotate(5deg) scaleX(1);
+  }
+  75% {
+    transform: translateY(-5px) rotate(-2deg) scaleX(0.86);
+  }
+}
+
+@keyframes shootingStar {
+  0% {
+    opacity: 0;
+    transform: translate3d(-40px, -20px, 0) scale(0.6);
+  }
+  15% {
+    opacity: 0.9;
+  }
+  65% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(240px, 120px, 0) scale(1);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-cloud-drift {
+  animation: cloudDrift 14s ease-in-out infinite;
+}
+
+.animate-twinkle {
+  animation: sparkleTwinkle 3.2s ease-in-out infinite;
+}
+
+.animate-butterfly {
+  animation: butterflyFlutter 4.8s ease-in-out infinite;
+}
+
+.animate-shooting-star {
+  animation: shootingStar 5.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float-slow,
+  .animate-cloud-drift,
+  .animate-twinkle,
+  .animate-butterfly,
+  .animate-shooting-star {
+    animation: none !important;
+  }
+}

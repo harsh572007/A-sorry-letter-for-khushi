@@ -1,0 +1,6 @@
+{
+  "name": "For Khushi — A Little Sorry Note",
+  "description": "A dreamy, warm, interactive multi-page apology experience dedicated to Khushi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
